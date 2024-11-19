@@ -1,14 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>50/50 Black and Blue Background</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
-   <style>
-    body {
-  background: linear-gradient(to right, black 50%, blue 50%);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    font-family: "Host Grotesk", sans-serif;
+
 }
-   </style>
-</head>
-<body>
-  </body>
-</html>
+
+nav{
+    background-color: #f4f2f1;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40vw;
+}
+.logo1{
+    position: relative;
+    font-size: xx-large;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    list-style-type:none;
+    font-weight: 500;
+}
+nav ul li a{
+    color: black;
+    font-size: 1.2em;
+}
+
+.intro{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f2f1;
+
+}
+.portfolioimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.portfolioimg img{
+    width: 450px;
+    border-radius: 2px;
+    display: block;
+    box-shadow: -141px 52px 0px 1px #e8e3e0;
+    -webkit-box-shadow: -141px 52px 0px 1px #e8e3e0;
+    -moz-box-shadow: -141px 52px 0px 1px #e8e3e0;
+}
+.Portfoliointro{
+    width: 50%;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.Portfoliointro h1{
+    font-size: 2.8em;
+}
+
+.Portfoliointro p{
+    width: 80%;
+}
+
+.Portfoliointro button{
+    width: 140px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 40px;
+    border: 2px solid #cabdb4;
+}
+ 
+.workshow{
+    background-color: #f4f2f1;
+    display: flex;
+    justify-content: center;
+
+}
+.workshowC{
+    width: 85%;
+    height: 75vh;
+    /* background-color: rgb(192, 192, 203); */
+    background-color: #f4f2f1;
+
+
+
+}
+.workshowSubC{
+    margin-left: 7%;
+}
+
+.workshow h2{
+    font-size: 2.3em;
+    padding-top: 30px;
+    
+}
+
+.showcasep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcaseimg{
+    padding-top: 60px;
+    width: 250px;
+    border-radius: 2px;
+}
+.showcasebutton{
+    width: 140px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 40px;
+    border: 2px solid #cabdb4;
+    margin-left: 16%;
+
+}
+
+.showcasepera{
+    width: 70%;
+    text-align: center;
+
+}
