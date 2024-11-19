@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>50/50 Black and Blue Background</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+    body {
+  background: linear-gradient(to right, black 50%, blue 50%);
+}
+   </style>
+</head>
+<body>
+  </body>
+</html>
